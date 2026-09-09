@@ -1,12 +1,13 @@
 # Practical Training Notes
 
-本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器、DHT11 和列表编程练习。
+本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器、DHT11、列表编程和蓝牙环境监测作业。
 
 ## 本次课程
 
 - [知识点梳理：Pymata4EX、模拟输入与 RGB 灯](notes/01-pymata4ex-rgb-and-sensors.md)
 - [新增知识点：滑动变阻器、PWM 亮度与蜂鸣器旋律](notes/02-potentiometer-and-buzzer.md)
 - [今日课堂：DHT11、温控风扇与灯光旋律](notes/03-dht11-fan-and-light-music.md)
+- [课堂作业：蓝牙环境信息监测系统](notes/04-bluetooth-environment-monitor.md)
 - [课堂展示照片](assets/classroom-presentation.jpg)
 
 ## 可运行示例
@@ -27,6 +28,7 @@
 | [10_dht11_read.py](examples/10_dht11_read.py) | 读取 DHT11 温度和湿度 |
 | [11_temperature_fan_control.py](examples/11_temperature_fan_control.py) | 用回差控制小风扇启停 |
 | [12_buzzer_rgb_music.py](examples/12_buzzer_rgb_music.py) | 蜂鸣器播放旋律时同步点亮 RGB 灯 |
+| [13_bluetooth_environment_monitor.py](examples/13_bluetooth_environment_monitor.py) | 通过蓝牙串口接收环境数据，并用 PyQt5 + pyqtgraph 显示实时曲线 |
 
 ## 快速使用
 
