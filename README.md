@@ -1,11 +1,12 @@
 # Practical Training Notes
 
-本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器和列表编程练习。
+本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器、DHT11 和列表编程练习。
 
 ## 本次课程
 
 - [知识点梳理：Pymata4EX、模拟输入与 RGB 灯](notes/01-pymata4ex-rgb-and-sensors.md)
 - [新增知识点：滑动变阻器、PWM 亮度与蜂鸣器旋律](notes/02-potentiometer-and-buzzer.md)
+- [今日课堂：DHT11、温控风扇与灯光旋律](notes/03-dht11-fan-and-light-music.md)
 - [课堂展示照片](assets/classroom-presentation.jpg)
 
 ## 可运行示例
@@ -23,6 +24,9 @@
 | [07_potentiometer_led_brightness.py](examples/07_potentiometer_led_brightness.py) | 滑动变阻器实时控制红色 LED 亮度 |
 | [08_buzzer_simple_melody.py](examples/08_buzzer_simple_melody.py) | 用频率和延时播放简短旋律 |
 | [09_buzzer_melody_lists.py](examples/09_buzzer_melody_lists.py) | 课堂文件：用音符列表和节拍列表播放旋律 |
+| [10_dht11_read.py](examples/10_dht11_read.py) | 读取 DHT11 温度和湿度 |
+| [11_temperature_fan_control.py](examples/11_temperature_fan_control.py) | 用回差控制小风扇启停 |
+| [12_buzzer_rgb_music.py](examples/12_buzzer_rgb_music.py) | 蜂鸣器播放旋律时同步点亮 RGB 灯 |
 
 ## 快速使用
 
