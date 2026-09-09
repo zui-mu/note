@@ -1,10 +1,11 @@
 # Practical Training Notes
 
-本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容基于 2026-09-08 的课堂练习：使用 `pymata4EX` 连接开发板，读取模拟传感器，并控制 RGB 灯。
+本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器和列表编程练习。
 
 ## 本次课程
 
 - [知识点梳理：Pymata4EX、模拟输入与 RGB 灯](notes/01-pymata4ex-rgb-and-sensors.md)
+- [新增知识点：滑动变阻器、PWM 亮度与蜂鸣器旋律](notes/02-potentiometer-and-buzzer.md)
 - [课堂展示照片](assets/classroom-presentation.jpg)
 
 ## 可运行示例
@@ -19,6 +20,9 @@
 | [04_rgb_pwm_fade.py](examples/04_rgb_pwm_fade.py) | 用 PWM 实现七种颜色的渐亮渐暗 |
 | [05_corridor_light.py](examples/05_corridor_light.py) | 光敏和声音传感器控制楼道灯 |
 | [06_classroom_pwm_showcase.py](examples/06_classroom_pwm_showcase.py) | 根据课堂投影整理的 PWM 演示代码 |
+| [07_potentiometer_led_brightness.py](examples/07_potentiometer_led_brightness.py) | 滑动变阻器实时控制红色 LED 亮度 |
+| [08_buzzer_simple_melody.py](examples/08_buzzer_simple_melody.py) | 用频率和延时播放简短旋律 |
+| [09_buzzer_melody_lists.py](examples/09_buzzer_melody_lists.py) | 课堂文件：用音符列表和节拍列表播放旋律 |
 
 ## 快速使用
 
