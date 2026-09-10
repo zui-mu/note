@@ -1,6 +1,6 @@
 # Practical Training Notes
 
-本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 2026-09-08 的 RGB 灯练习，以及 2026-09-09 的滑动变阻器、蜂鸣器、DHT11、列表编程和蓝牙环境监测作业。
+本仓库存放嵌入式实训课的 Markdown 笔记与 Python 示例。内容覆盖 RGB 灯、模拟传感器、蜂鸣器、DHT11、蓝牙环境监测，以及 MQTT、EMQX 和 Node-RED Dashboard。
 
 ## 本次课程
 
@@ -8,6 +8,7 @@
 - [新增知识点：滑动变阻器、PWM 亮度与蜂鸣器旋律](notes/02-potentiometer-and-buzzer.md)
 - [今日课堂：DHT11、温控风扇与灯光旋律](notes/03-dht11-fan-and-light-music.md)
 - [课堂作业：蓝牙环境信息监测系统](notes/04-bluetooth-environment-monitor.md)
+- [今日实训：MQTT、EMQX 与 Node-RED 环境监测](notes/05-mqtt-nodered-environment-dashboard.md)
 - [课堂展示照片](assets/classroom-presentation.jpg)
 
 ## 可运行示例
@@ -29,6 +30,8 @@
 | [11_temperature_fan_control.py](examples/11_temperature_fan_control.py) | 用回差控制小风扇启停 |
 | [12_buzzer_rgb_music.py](examples/12_buzzer_rgb_music.py) | 蜂鸣器播放旋律时同步点亮 RGB 灯 |
 | [13_bluetooth_environment_monitor.py](examples/13_bluetooth_environment_monitor.py) | 通过蓝牙串口接收环境数据，并用 PyQt5 + pyqtgraph 显示实时曲线 |
+| [14_mqtt_environment_publisher.py](examples/14_mqtt_environment_publisher.py) | 通过 pymata4EX 采集四项环境数据，并以一条 JSON 发布到 EMQX |
+| [15_node_red_parse_environment.js](examples/15_node_red_parse_environment.js) | Node-RED Function：校验 JSON 后拆分温度、湿度、声音和光线四路数据 |
 
 ## 快速使用
 
